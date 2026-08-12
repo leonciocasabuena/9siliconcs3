@@ -1,5 +1,5 @@
 # Computational Thinking Exercise
-## [Smart School Canteen Queue OR Smart Vending Machine]
+## Smart School Canteen Queue
 **Name:** Leoncio B. Casabuena III
 **Section:** 9-Silicon
 **Last Name:** Casabuena
