@@ -8,5 +8,5 @@
 # Quarter 1
 ## Activities
 ### Computational Thinking Skills
-[View my Computational Thinking Exercise](q1/ctskillsSiliconCasabuena.md)
+#### [View my Computational Thinking Exercise](q1/ctskillsSiliconCasabuena.md)
 
