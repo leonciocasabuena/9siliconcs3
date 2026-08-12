@@ -7,8 +7,8 @@
 ---
 
 ## Step 1: Identify the Big Problem
-### Main Problem
-Write your description of the main problem here.
+### [Main Problem]
+### [Description of the main problem]
 ---
 ## Step 2: Identify the Sub-Problems
 1. Write your first sub-problem here.
