@@ -1,8 +1,8 @@
 # Computational Thinking Exercise
 ## [Smart School Canteen Queue OR Smart Vending Machine]
-**Name:** Your Name
-**Section:** Your Section
-**Last Name:** Your Lastname
+**Name:** Leoncio B. Casabuena III
+**Section:** 9-Silicon
+**Last Name:** Casabuena
 **Date:** Date Completed
 ---
 
