@@ -1,3 +1,7 @@
+[zodiacSiliconCasabuena.txt](https://github.com/user-attachments/files/31071665/zodiacSiliconCasabuena.txt)
+
+[zodiacSiliconCasabuena.py](https://github.com/user-attachments/files/31071530/zodiacSiliconCasabuena.py)
+
 #asks the user to input their birth year.
 birth_year=int(input("Enter your birth year: "))
 
@@ -18,6 +22,8 @@ print(f"Your Chinese Zodiac Sign is: {zodiac_sign[zodiac_sol]}")
 input("")
 
 <img width="503" height="452" alt="image" src="https://github.com/user-attachments/assets/945c46c0-4975-422b-ad56-6fa5ee009095" />
+    
+    
 
 
 
