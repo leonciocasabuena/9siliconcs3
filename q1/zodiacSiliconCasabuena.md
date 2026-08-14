@@ -17,6 +17,8 @@ zodiac_sign=["Rat (鼠 / Shǔ)", "Ox (牛 / Niú)", "Tiger (虎 / Hǔ)", "Rabbit
 print(f"Your Chinese Zodiac Sign is: {zodiac_sign[zodiac_sol]}")
 input("")
 
+<img width="503" height="452" alt="image" src="https://github.com/user-attachments/assets/945c46c0-4975-422b-ad56-6fa5ee009095" />
+
 
 
 
