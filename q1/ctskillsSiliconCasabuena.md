@@ -7,14 +7,13 @@
 ---
 
 ## Step 1: Identify the Big Problem
-### [Main Problem]
-### [Description of the main problem]
+### The canteen lacks an efficient system that automates simple tasks (e.g. Suggestion System, Computer, Stock Monitor, etc.) in order to reduce workload and process things faster.
 ---
 ## Step 2: Identify the Sub-Problems
-1. Write your first sub-problem here.
-2. Write your second sub-problem here.
-3. Write your third sub-problem here.
-4. Write your fourth sub-problem here.
+1. The lack of a suggestion system where students are presented with best-selling or delectable products to help them decide faster.
+2. The lack of an automated computing system that automatically computes the total amount and changes.
+3. The lack of a stock monitoring system that actively change whenever a product is added or reduced in real time.
+4. An insufficient number of cashiers and lines which divides one full line into several ones to make queueing faster.
 ---
 ## Step 3: Apply Computational Thinking Skills
 | Sub-Problem | CT Skill | Proposed Solution |
