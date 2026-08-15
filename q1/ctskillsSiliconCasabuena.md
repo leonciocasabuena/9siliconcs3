@@ -18,10 +18,10 @@
 ## Step 3: Apply Computational Thinking Skills
 | Sub-Problem | CT Skill | Proposed Solution |
 |---|---|---|
-| No Suggestion System | CT skill | Brief proposed solution |
+| No Suggestion System | Pattern Recognition | Brief proposed solution |
 | No Automated Computing System | CT skill | Brief proposed solution |
 | No Stock Monitoring System | CT skill | Brief proposed solution |
-| Insufficient Queue Lines | CT skill | Brief proposed solution |
+| Insufficient Queue Lines | Decomposition | Brief proposed solution |
 ---
 ## Step 4: Algorithmic Solution
 ### Selected Sub-Problem
