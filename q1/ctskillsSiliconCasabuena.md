@@ -27,7 +27,22 @@
 ### Selected Sub-Problem
 The Lack of An Automated Computing System
 ### Pseudocode:
+
 START
 
+INPUT ProductPrice
+INPUT BuyerAmount
+
+IF BuyerAmount>=ProductPrice
+
+  Change = BuyerAmount minus ProductPricwe
+
+  OUTPUT "Change:", Change
+
+ELSE 
+
+  OUTPUT "Insufficient Payment."
+
 END
+
 ---
