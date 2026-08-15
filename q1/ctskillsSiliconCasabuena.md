@@ -7,7 +7,7 @@
 ---
 
 ## Step 1: Identify the Big Problem
-### The canteen lacks an efficient system that automates simple tasks (e.g. Suggestion System, Automated Computer, Stock Monitor, etc.) in order to reduce workload and process things faster.
+### The canteen lacks an efficient system that automates simple tasks (e.g. Suggestion System, Automated Computer, Stock Monitor, etc.), which takes a significant amount of time that causes the prolonged transactions and long queues.
 ---
 ## Step 2: Identify the Sub-Problems
 1. The lack of a suggestion system where students are presented with best-selling or delectable products to help them decide faster.
