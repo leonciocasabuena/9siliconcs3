@@ -18,16 +18,16 @@
 ## Step 3: Apply Computational Thinking Skills
 | Sub-Problem | CT Skill | Proposed Solution |
 |---|---|---|
-| No Suggestion System | Pattern Recognition | Brief proposed solution |
+| No Suggestion System | Pattern Recognition | Cashiers are encouraged to interact and socialize with students so that they have scant ideas of what individual students' frequently bought products and favorites are to give them a chance to suggest whether it be the usual or not.
 | No Automated Computing System | CT skill | Brief proposed solution |
 | No Stock Monitoring System | CT skill | Brief proposed solution |
-| Insufficient Queue Lines | Decomposition | Brief proposed solution |
+| Insufficient Queue Lines | Decomposition | Canteen queue lines should be separated into three to five lines at least with a reliable and competent cashier behind the counters, so that the canteen could accommodate multiple students at once efficiently. |
 ---
 ## Step 4: Algorithmic Solution
 ### Selected Sub-Problem
-Write the sub-problem you selected.
-### Pseudocode
+The Lack of An Automated Computing System
+### Pseudocode:
 START
-Write your algorithm here.
+
 END
 ---
