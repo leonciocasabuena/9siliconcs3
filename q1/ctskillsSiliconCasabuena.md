@@ -31,11 +31,12 @@ The Lack of an Automated Computing System
 START
 
 INPUT ProductPrice
+
 INPUT BuyerAmount
 
 IF BuyerAmount>=ProductPrice
 
-  Change = BuyerAmount minus ProductPricwe
+  Change = BuyerAmount minus ProductPrice
 
   OUTPUT "Change:", Change
 
