@@ -1,4 +1,4 @@
-QUARTER 1
+# QUARTER 1
 # Computer Science 3 Portfolio
 ## Activities
 ### Computational Thinking Skills
