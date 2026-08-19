@@ -12,4 +12,4 @@
 ### - Chinese Zodiac
 #### [View my Chinese Zodiac Exercise](zodiacSiliconCasabuena.md)
 ### - OOP Concept
-#### [View my OOP Concept Exercise](zodiacSiliconCasabuena.md)
+#### [View my OOP Concept Exercise](q1/ila_oop.md)
