@@ -1,4 +1,4 @@
-#Chinese Zodiac Signs Exercise
+# Chinese Zodiac Signs Exercise
 
 [zodiacSiliconCasabuena.txt](https://github.com/user-attachments/files/31071665/zodiacSiliconCasabuena.txt)
 
