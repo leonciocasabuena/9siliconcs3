@@ -36,9 +36,9 @@ INPUT BuyerAmount
 
 IF BuyerAmount>=ProductPrice
 
-  Change = BuyerAmount minus ProductPrice
+Change = BuyerAmount minus ProductPrice
 
-  OUTPUT "Change:", Change
+OUTPUT "Change:", Change
 
 ELSE 
 
