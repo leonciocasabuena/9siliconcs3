@@ -3,7 +3,7 @@
 ## Sari-Sari Store Inventory System
 
 ### 1. Encapsulation
-Your explanation here.
+
 
 ### 2. Abstraction
 Your explanation here.
