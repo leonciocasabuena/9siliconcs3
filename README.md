@@ -3,7 +3,7 @@
 ### Name: Leoncio B. Casabuena
 ### Section: Silicon
 ### School Year: 2026-2027
-### I love sports and music
+### I love sports and music.
 ---
 # Quarter 1
 ## Activities
