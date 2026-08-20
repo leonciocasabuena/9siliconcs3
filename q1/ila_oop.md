@@ -6,7 +6,7 @@
 ## Sari-Sari Store Inventory System
 
 ### - Encapsulation
-#### gg
+#### This concept/pillar may help in 
 
 ### - Abstraction
 #### gg
