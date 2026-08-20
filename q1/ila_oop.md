@@ -6,7 +6,7 @@
 ## Sari-Sari Store Inventory System
 
 ### - Encapsulation
-#### This concept/pillar may help in 
+#### This concept/pillar may help by encapsulating and grouping every variable and method that define and categorize a certain object (e.g. a store product) from the others, which would then be group into one single entity late on and act as an entire category working together (e.g. properties like price, name, and quantity will embody certaiin store product.)
 
 ### - Abstraction
 #### gg
