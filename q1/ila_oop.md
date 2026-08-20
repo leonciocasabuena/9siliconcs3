@@ -18,4 +18,4 @@
 #### gg
 
 ## Reflection
-### Among the four pillars of Object-Oriented Programming, which do you think would be most useful in improving the sari-sari store inventory system? Explain your answer.
+### In my opinion, the Encapsulation pillar may be the best fit for an aspiring sari-sari vendor to use,
