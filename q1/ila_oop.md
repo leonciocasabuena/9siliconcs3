@@ -3,16 +3,16 @@
 ## Sari-Sari Store Inventory System
 
 ### 1. Encapsulation
-
+#### gg
 
 ### 2. Abstraction
-Your explanation here.
+#### gg
 
 ### 3. Inheritance
-Your explanation here.
+#### gg
 
 ### 4. Polymorphism
-Your explanation here.
+#### gg
 
 ## Reflection
-Answer the reflection question here.
+### gg
