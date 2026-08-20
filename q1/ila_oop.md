@@ -12,7 +12,7 @@
 #### This concept will absolutely come in handy if the vendor wants to eliminate any redundant information with regard to his or her products and merchandise and to present the most relevant and essential properties of the products itself (e.g product name, price, expiration date, quantity, etc.). The application of this pillar will significantly reduce the workload of the vendor all while  omitting superfluous properties.
 
 ### - Inheritance
-#### gg
+#### This pillar may now serve as a stepping stone or bridge in order to categorize products that were already encapsulated  
 
 ### - Polymorphism
 #### gg
