@@ -8,8 +8,8 @@
 # Quarter 1
 ## Activities
 ### - Computational Thinking Skills
-#### [View my Computational Thinking Exercise](ctskillsSiliconCasabuena.md)
+#### [View my Computational Thinking Exercise](q1/ctskillsSiliconCasabuena.md)
 ### - Chinese Zodiac
-#### [View my Chinese Zodiac Exercise](zodiacSiliconCasabuena.md)
+#### [View my Chinese Zodiac Exercise](q1/zodiacSiliconCasabuena.md)
 ### - OOP Concept
 #### [View my OOP Concept Exercise](q1/ila_oop.md)
