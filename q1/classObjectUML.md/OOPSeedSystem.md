@@ -15,7 +15,7 @@
 | | |
 | | |
 ## Class Diagram
-![Class Diagram](classObjectUML.md/classDiagram.png)
+### [View My Class Diagram](classObjectUML.md/classDiagram.png)
 ## Design Explanation
 ### Why did you choose this class?
 ### Which property is the most important? Why?
