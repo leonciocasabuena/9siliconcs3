@@ -15,7 +15,7 @@ IsTuned|Boolean|This property determines whether the instrument is a tuned or un
 ## - Methods
 | Method | Description |
 |---|---|
-|PLay|This method determines a method or action "Play" which lets the instrument make a sound.|
+|Play|This method determines a method or action "Play" which lets the instrument make a sound.|
 |Tune|This method determines an action "Tune" exclusively whether the instrument is tuned.|
 |Mute|This method determines an action "Mute" which mutes the instrument and makes it inaudible or static.|
 
