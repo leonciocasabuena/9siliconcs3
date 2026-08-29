@@ -12,9 +12,8 @@
 | Method | Description |
 |---|---|
 | | |
+| | |
 
-| | |
-| | |
 ## Class Diagram
 ### [View My Class Diagram](classDiagram.png)
 ## Design Explanation
