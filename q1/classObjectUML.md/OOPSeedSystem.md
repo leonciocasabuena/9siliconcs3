@@ -13,8 +13,9 @@
 ## - Methods
 | Method | Description |
 |---|---|
-|PLay|This method determines a method or action "Play" which the instrument does.|
-|| |
+|PLay|This method determines a method or action "Play" which lets the instrument make a sound.|
+|Tune|This method determines an action "Tune" exclusively whether the instrument is tuned.|
+|Mute|This method determines an action "Mute" which mutes the instrument and makes it inaudible or static.|
 
 ## - Class Diagram
 #### [View My Class Diagram](classDiagram.png)
