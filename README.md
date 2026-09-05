@@ -14,6 +14,6 @@
 ### - OOP Concept
 #### [View my OOP Concept Exercise](q1/ila_oop.md)
 ### - OOP Seed System
-#### [View my OOP Seed System Exercise](q1/classObjectUML.md)
+#### [View my OOP Seed System Part I Exercise](q1/MyOOPSeedSystem_Part1)
 ### - OOP Seed System Part II
-#### [View my OOP Seed System Part II Exercise](q1/classAttributesMethods.md)
+#### [View my OOP Seed System Part II Exercise](q1/MyOOPSeedSystem_Part2)
