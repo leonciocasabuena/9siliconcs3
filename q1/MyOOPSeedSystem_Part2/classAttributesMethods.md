@@ -1,26 +1,28 @@
 # Class Attributes and Methods
-## Previous Design
+## - Previous Design
 Link to my previous activity:
 [View my OOP Seed System Exercise](MyOOPSeedSytem_Part1)
-## Design Revision
+## - Design Revision
 Describe any changes made to your original class.
-## Visibility Decisions
+## - Visibility Decisions
 | Attribute | Data Type | Visibility | Reason |
 |---|---|---|---|
 | | | | |
 | | | | |
 | | | | |
 | | | | |
-## Updated UML Class Diagram
-![Class Diagram](images/classDiagramSG5.png)
-## Python Implementation
 
-[View Python Source](classImplementation.py)
-## Test Run
-![Test Run](images/classTestRun.png)
-## Object Diagram
-![Object Diagram](images/objectDiagram.png)
-## Analysis
+## - Hyperlinks
+
+### Updated UML Class Diagram: [View my Updated Class Diagram](images/classDiagramSG5.png)
+
+### Python Implementation: [View my Python Source](classImplementation.py)
+
+### Test Run: [View my Test Run](images/classTestRun.png)
+
+### Object Diagram: [View my Object Diagram](images/objectDiagram.png)
+
+## - Analysis
 ### Why did you make your chosen attribute private?
 ### Which method changes the state of your object?
 ### How did your two objects demonstrate that instances are independent?
