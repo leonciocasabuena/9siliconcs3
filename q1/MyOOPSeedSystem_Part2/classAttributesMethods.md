@@ -23,7 +23,11 @@ Describe any changes made to your original class.
 ### Object Diagram: [View my Object Diagram](images/objectDiagram.png)
 
 ## - Analysis
+
 ### Why did you make your chosen attribute private?
+
 ### Which method changes the state of your object?
+
 ### How did your two objects demonstrate that instances are independent?
+
 ### What is the difference between your class diagram and your object diagram?
