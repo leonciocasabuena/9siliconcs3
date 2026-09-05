@@ -16,4 +16,5 @@
 ### - OOP Seed System
 #### [View my OOP Seed System Part I Exercise](q1/MyOOPSeedSystem_Part1/classObjectUML.md)
 ### - OOP Seed System Part II
-#### [View my OOP Seed System Part I Exercise](q1/MyOOPSeedSystem_Part2/classAttributesMethodsL.md)
+#### [View my OOP Seed System Part II Exercise](q1/MyOOPSeedSystem_Part1/)
+
