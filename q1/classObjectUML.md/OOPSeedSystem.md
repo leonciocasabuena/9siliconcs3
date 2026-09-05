@@ -4,7 +4,7 @@
 ## - Class Description
 ### This class defines an object that can be used for music.
 
-## - Properties
+## - Properties 
 | Property | Data Type | Description |
 |---|---|---|
 |Color|String|This property determines the color of the instrument.|
