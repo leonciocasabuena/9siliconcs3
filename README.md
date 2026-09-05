@@ -13,8 +13,8 @@
 #### [View my Chinese Zodiac Exercise](q1/zodiacSiliconCasabuena.md)
 ### - OOP Concept
 #### [View my OOP Concept Exercise](q1/ila_oop.md)
-### - OOP Seed System
-#### [View my OOP Seed System Part I Exercise](q1/MyOOPSeedSytem_Part1)
-### - OOP Seed System Part II
-#### [View my OOP Seed System Part II Exercise](q1/MyOOPSeedSystem_Part2)
+### - OOP Seed System 1
+#### [View my OOP Seed System Part 1 Exercise](q1/MyOOPSeedSytem_Part1)
+### - OOP Seed System Part 2
+#### [View my OOP Seed System Part 2 Exercise](q1/MyOOPSeedSystem_Part2)
 
