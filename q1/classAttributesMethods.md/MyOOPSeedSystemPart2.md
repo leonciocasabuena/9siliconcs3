@@ -1,7 +1,7 @@
 # Class Attributes and Methods
 ## Previous Design
 Link to my previous activity:
-[classObjectUML.md](classObjectUML.md)
+[View my OOP Seed System Exercise](q1/classObjectUML.md)
 ## Design Revision
 Describe any changes made to your original class.
 ## Visibility Decisions
