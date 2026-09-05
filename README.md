@@ -6,7 +6,7 @@
 ### I love sports and music.
 ---
 # Quarter 1
-## Activities
+## Activities:
 ### - Computational Thinking Skills
 #### [View my Computational Thinking Exercise](q1/ctskillsSiliconCasabuena.md)
 ### - Chinese Zodiac
@@ -17,4 +17,13 @@
 #### [View my OOP Seed System Part 1 Exercise](q1/MyOOPSeedSytem_Part1)
 ### - OOP Seed System Part 2
 #### [View my OOP Seed System Part 2 Exercise](q1/MyOOPSeedSystem_Part2)
+
+# Quarter 2
+## Activities:
+
+# Quarter 3
+## Activities:
+
+# Quarter 4
+## Activities:
 
