@@ -9,7 +9,7 @@ No major changes were needed from my original design.
 |Color| String | Private | |
 | Type | String | Private | |
 | IsTuned | Boolean |Private  | |
-| IsStringed | Boolean |Private  | |
+| IsPlayable| Boolean |Private  | |
 
 ## - Hyperlinks
 
