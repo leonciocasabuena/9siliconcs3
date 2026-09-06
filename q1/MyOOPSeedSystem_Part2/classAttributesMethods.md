@@ -6,10 +6,10 @@ No major changes were needed from my original design.
 ## - Visibility Decisions
 | Attribute | Data Type | Visibility | Reason |
 |---|---|---|---|
-|Color| String | | |
-| Type | String | | |
-| IsTuned | Boolean | | |
-| IsStringed | Boolean | | |
+|Color| String | Private | |
+| Type | String | Private | |
+| IsTuned | Boolean |Private  | |
+| IsStringed | Boolean |Private  | |
 
 ## - Hyperlinks
 
