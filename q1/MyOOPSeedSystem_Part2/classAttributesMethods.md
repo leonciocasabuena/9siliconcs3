@@ -1,9 +1,8 @@
 # Class Attributes and Methods
 ## - Previous Design
-Link to my previous activity:
-[View my OOP Seed System Exercise](q1/MyOOPSeedSytem_Part1)
+Link to my previous activity: [View my OOP Seed System Exercise](q1/MyOOPSeedSytem_Part1)
 ## - Design Revision
-Describe any changes made to your original class.
+No major changes were needed from my original design.
 ## - Visibility Decisions
 | Attribute | Data Type | Visibility | Reason |
 |---|---|---|---|
