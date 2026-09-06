@@ -10,7 +10,7 @@
 |Color|String|This property determines the color of the instrument.|
 |Type|String|This property determines what instrument is played.|
 IsTuned|Boolean|This property determines whether the instrument is a tuned or untuned instrumnt.|
-|IsStringed|Boolean|This property determines whether the instrument has strings or not.|
+|IsPlayable|Boolean|This property determines whether the instrument is playable or not.|
 
 ## - Methods
 | Method | Description |
