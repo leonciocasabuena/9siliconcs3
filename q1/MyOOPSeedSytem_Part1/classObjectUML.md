@@ -1,8 +1,8 @@
 # SG4 - Understanding Classes and Objects
 ## - Class Name
-### classInstrument
+classInstrument
 ## - Class Description
-### This class defines an object that can be used for music.
+This class defines an object that can be used for music.
 
 ## - Properties 
 | Property | Data Type | Description |
