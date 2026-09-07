@@ -34,8 +34,8 @@ class Instrument: #Creates a class named "Instrument".
         return self.__IsPlayable
 
 
-object1 = Instrument("Blue", "Guitar", False, True) #Assigns an object named "object1" which contains all of it's attributes in one compiled parameter.
-object2 = Instrument("Red", "Piano", True, True) #Assigns another object named "object2" which also contains all of it's attributes in a compiled parameter.
+object1 = Instrument("Blue", "Guitar", False, True) #Assigns an object named "object1" which contains all of its attributes in one compiled parameter.
+object2 = Instrument("Red", "Piano", True, True) #Assigns another object named "object2" which also contains all of its attributes in a compiled parameter.
 
 print("---INITIAL STATE---") #Prints out all of the assigned attributes and calling all of the previous functions of both objects BEFORE the chosen method is performed.
 print("OBJECT 1:")
