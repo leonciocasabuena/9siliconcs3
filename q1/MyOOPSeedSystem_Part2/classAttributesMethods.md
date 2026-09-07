@@ -24,9 +24,10 @@ Object Diagram: [View my Object Diagram](images/objectDiagram.png)
 ## - Analysis
 
 ### Why did you make your chosen attribute private?
-
+I chose all of these attributes to be private because they all have the capacity to alter the object's overall state, and making it public makes it susceptible to invlid syntaxes from other classes which may possibly render my object defective and useless.
 ### Which method changes the state of your object?
-
+The method in which changes the state of my object is tune(), which automaticsally changes the attribute IsTuned to True.
 ### How did your two objects demonstrate that instances are independent?
-
+When I executed the method tune() on Object 1, Object 2 kept its original attributes and remmained at its previous all while Object 1's "IsTuned" attribute changed to True.
 ### What is the difference between your class diagram and your object diagram?
+The class diagram solely delineates the class blueprint or design, while the object diagram shows the two independent instances branching out form the blueprint in their changed states after the method was successfully excuted.
