@@ -10,8 +10,8 @@ No major changes were needed from my original design.
 |---|---|---|---|
 |Color| String | Private | I kept this attribute private because it changes a physical state (color) and makes it susceptible to invalid syntaxes from sub-classes (e.g color: trasparent, color: none, etc.)——which may destroy my object. |
 | Type | String | Private | I also kept this attribute private because it is the primary foundation of the other attributes and methods, for it serves as the basis for the latter: whether it be a piano, guitar, etc.  |
-| IsTuned | Boolean | Private | I kept this attribute hidden too because this attribute  |
-| IsPlayable | Boolean | Private  |  |
+| IsTuned | Boolean | Private | I kept this attribute hidden too because this attribute can also destroy or render the object useless if modified recklessly. |
+| IsPlayable | Boolean | Private  | Lastly, this attribute is the most important and must be kept private at all times. This attribute serves as the core function and essence of the any instrument and shall not be modified in any way unless the instrument is to be rendered unpplayable. |
 
 ## - Hyperlinks
 
