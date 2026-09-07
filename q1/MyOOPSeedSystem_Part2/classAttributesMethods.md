@@ -13,13 +13,13 @@ No major changes were needed from my original design.
 
 ## - Hyperlinks
 
-### Updated UML Class Diagram: [View my Updated Class Diagram](images/classDiagramSG5.png)
+Updated UML Class Diagram: [View my Updated Class Diagram](images/classDiagramSG5.png)
 
-### Python Implementation: [View my Python Source](classImplementation.py)
+Python Implementation: [View my Python Source](classImplementation.py)
 
-### Test Run: [View my Test Run](images/classTestRun.png)
+Test Run: [View my Test Run](images/classTestRun.png)
 
-### Object Diagram: [View my Object Diagram](images/objectDiagram.png)
+Object Diagram: [View my Object Diagram](images/objectDiagram.png)
 
 ## - Analysis
 
