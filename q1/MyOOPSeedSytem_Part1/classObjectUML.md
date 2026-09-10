@@ -1,9 +1,12 @@
 # SG4 - Understanding Classes and Objects
+
+---
 ## - Class Name
 classInstrument
 ## - Class Description
 This class defines an object that can be used for music.
 
+---
 ## - Properties 
 | Property | Data Type | Description |
 |---|---|---|
@@ -12,6 +15,7 @@ This class defines an object that can be used for music.
 IsTuned|Boolean|This property determines whether the instrument is a tuned or untuned instrumnt.|
 |IsPlayable|Boolean|This property determines whether the instrument is playable or not.|
 
+---
 ## - Methods
 | Method | Description |
 |---|---|
@@ -19,8 +23,10 @@ IsTuned|Boolean|This property determines whether the instrument is a tuned or un
 |Tune|This method determines an action "Tune" exclusively whether the instrument is tuned.|
 |Mute|This method determines an action "Mute" which mutes the instrument and makes it inaudible or static.|
 
+---
 ## - Class Diagram: [View My Class Diagram](images/classDiagram.png)
 
+---
 ## - Design Explanation
 ### * Why did you choose this class?
 I chose this task because I love music, and I wanted to incorporate the thing  love to my works.
