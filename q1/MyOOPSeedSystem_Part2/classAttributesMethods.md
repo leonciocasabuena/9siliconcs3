@@ -1,10 +1,14 @@
 # Class Attributes and Methods
+
+---
 ## - Previous Design
 Link to my previous activity: [View my OOP Seed System Part 1](../MyOOPSeedSytem_Part1)
 
+---
 ## - Design Revision
 No major changes were needed from my original design.
 
+---
 ## - Visibility Decisions
 | Attribute | Data Type | Visibility | Reason |
 |---|---|---|---|
@@ -13,6 +17,7 @@ No major changes were needed from my original design.
 | IsTuned | Boolean | Private | I kept this attribute hidden too because this attribute can also destroy or render the object useless if modified recklessly. |
 | IsPlayable | Boolean | Private  | Lastly, this attribute is the most important and must be kept private at all times. This attribute serves as the core function and essence of the any instrument and shall not be modified in any way unless the instrument is to be rendered unplayable. |
 
+---
 ## - Hyperlinks
 
 Updated UML Class Diagram: [View my Updated Class Diagram](images/classDiagramSG5.png)
@@ -23,6 +28,7 @@ Test Run: [View my Test Run](images/classTestRun.png)
 
 Object Diagram: [View my Object Diagram](images/objectDiagram.png)
 
+---
 ## - Analysis
 
 ### Why did you make your chosen attribute private?
