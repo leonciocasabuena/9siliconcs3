@@ -1,8 +1,12 @@
 # Class Relationships: Association and Multiplicity
+---
 ## Previous Work
 [Part 1 : - Classes and Objects](../MyOOPSeedSytem_Part1)
 
 [Part 2: Class Attributes and Methods](../MyOOPSeedSystem_Part2)
+
+---
+
 ## Existing Class
 Class:
 Description:
