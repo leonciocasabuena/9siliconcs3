@@ -1,7 +1,7 @@
 # Class Relationships: Association and Multiplicity
 ## Previous Work
-[Part I - Classes and Objects](classObjectUML.md)
-[Part II - Class Attributes and Methods](classAttributesMethods.md)
+[Part I - Classes and Objects](../MyOOPSeedSytem_Part1)
+[Part II - Class Attributes and Methods](../MyOOPSeedSystem_Part2)
 ## Existing Class
 Class:
 Description:
