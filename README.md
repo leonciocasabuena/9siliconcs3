@@ -17,6 +17,8 @@
 #### [View my OOP Seed System Part 1 Exercise](q1/MyOOPSeedSytem_Part1)
 ### - OOP Seed System Part 2
 #### [View my OOP Seed System Part 2 Exercise](q1/MyOOPSeedSystem_Part2)
+### - OOP Seed System Part 3
+#### [View my OOP Seed System Part 3 Exercise](q1/MyOOPSeedSystem_Part3)
 
 # Quarter 2
 ## Activities:
