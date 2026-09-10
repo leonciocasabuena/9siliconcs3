@@ -6,28 +6,39 @@
 [Part 2: Class Attributes and Methods](../MyOOPSeedSystem_Part2)
 
 ---
-
 ## Existing Class
-Class:
-Description:
+|Class|Description|
+
+
+---
 ## New Related Class
 Class:
+
 Description:
+
+---
 ## Association
 Relationship:
-Explanation:
-## Multiplicity
 
-Multiplicity:
 Explanation:
-## UML Class Relationship Diagram
-![Class Relationship Diagram](images/classRelationshipDiagram.png)
-## Python Implementation
-[View Python Source](classRelationships.py)
-## Test Run
-![Relationship Test Run](images/relationshipTestRun.png)
-## Object Relationship Diagram
-![Object Relationship Diagram](images/objectRelationshipDiagram.png)
+
+---
+## Multiplicity
+Multiplicity:
+
+Explanation:
+
+---
+## Hyperlinks
+UML Class Relationship Diagram: [Class Relationship Diagram](images/classRelationshipDiagram.png)
+
+Python Implementation: [View Python Source](classRelationships.py)
+
+Test Run: [Relationship Test Run](images/relationshipTestRun.png)
+
+Object Relationship Diagram: [Object Relationship Diagram](images/objectRelationshipDiagram.png)
+
+---
 ## Analysis
 ### What is the association between your two classes?
 ### What multiplicity did you choose and why?
