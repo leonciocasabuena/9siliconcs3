@@ -31,13 +31,13 @@ Part 2: [View my OOPAct Part 2: Class Attributes and Methods](../MyOOPSeedSystem
 
 ---
 ## Hyperlinks:
-UML Class Relationship Diagram: [Class Relationship Diagram](images/classRelationshipDiagram.png)
+UML Class Relationship Diagram: [View my Class Relationship Diagram](images/classRelationshipDiagram.png)
 
-Python Implementation: [View Python Source](classRelationships.py)
+Python Implementation: [View my Python Source](classRelationships.py)
 
-Test Run: [Relationship Test Run](images/relationshipTestRun.png)
+Test Run: [View my Relationship Test Run](images/relationshipTestRun.png)
 
-Object Relationship Diagram: [Object Relationship Diagram](images/objectRelationshipDiagram.png)
+Object Relationship Diagram: [View my Object Relationship Diagram](images/objectRelationshipDiagram.png)
 
 ---
 ## Analysis:
