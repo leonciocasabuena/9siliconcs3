@@ -9,7 +9,7 @@ class Instrument: #Creates a class named "Instrument".
         
     #Creates a function which materializes the method tune() and lets it get called and utilized later on (A method which changes an attribute and safely interacts with an attribute).
     def tune(self):
-        self.__IsTuned = True
+        self.IsTuned = True
         print("Status: Tuned")
 
     #Creates a function play() which plays the instrument (A method which receives a parameter and changes an attribute).
