@@ -42,8 +42,12 @@ Object Relationship Diagram: [Object Relationship Diagram](images/objectRelation
 
 ---
 ## Analysis
-### What is the association between your two classes?
-### What multiplicity did you choose and why?
-### How did you implement the relationship in Python?
-### Why did you store an object reference instead of copying its data?
-### If your relationship uses many, why is a list appropriate?
+ What is the association between your two classes?
+ 
+ What multiplicity did you choose and why?
+ 
+ How did you implement the relationship in Python?
+ 
+ Why did you store an object reference instead of copying its data?
+ 
+ If your relationship uses many, why is a list appropriate?
