@@ -15,20 +15,19 @@ Part 2: [View my OOPAct Part 2: Class Attributes and Methods](../MyOOPSeedSystem
 ## New Related Class:
 | Class | Description |
 |---|---|
-|  |  |
+| Musician | A musician is someone who plays or wields a musical instrument; An instrument needs a musician for it to work and be used of its purpose. |
 
 ---
 ## Association:
 | Relationship | Explanation |
 |---|---|
-|  |  |
+| Musician HAS-AN Instrument. | The person in the class "Musician" can posses or wield an musical object from the class "Instrument". |
 
 ---
 ## Multiplicity:
 | Multiplicity | Explanation |
 |---|---|
-|  |  |
-
+| One-To-Many | A musician can posses and wield several instruments, and an instrument can belong to one person only. |
 
 ---
 ## Hyperlinks:
