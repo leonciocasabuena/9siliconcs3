@@ -12,9 +12,9 @@ No major changes were needed from my original design.
 ## - Visibility Decisions
 | Attribute | Data Type | Visibility | Reason |
 |---|---|---|---|
-|Color| String | Public | I kept this attribute public. |
+|Color| String | Public | I kept this attribute public so other sub-classes can freely modify what the color of the instrument would be. |
 | Type | String | Private | I also kept this attribute private because it is the primary foundation of the other attributes and methods, for it serves as the basis for the latter: whether it be a piano, guitar, etc.  |
-| IsTuned | Boolean | Public | I kept this attribute public too because . |
+| IsTuned | Boolean | Public | I kept this attribute public too so that sub-classes can determine and control whether an instrument would be tuned or not. |
 | IsPlayable | Boolean | Private  | Lastly, this attribute is the most important and must be kept private at all times. This attribute serves as the core function and essence of the any instrument and shall not be modified in any way unless the instrument is to be rendered unplayable. |
 
 ---
