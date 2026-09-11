@@ -9,7 +9,7 @@ Part 2: [View my OOPAct Part 2: Class Attributes and Methods](../MyOOPSeedSystem
 ## Existing Class
 | Class | Description |
 |---|---|
-| Instrument ||
+| Instrument | This class represents an object that can be used for music. |
 
 ---
 ## New Related Class
