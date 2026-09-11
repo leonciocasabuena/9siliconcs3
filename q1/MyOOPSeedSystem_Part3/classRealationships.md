@@ -1,37 +1,37 @@
 # Class Relationships: Association and Multiplicity
 ---
-## Previous Work
+## Previous Work:
 Part 1: [View my OOPAct Part 1: Classes and Objects](../MyOOPSeedSytem_Part1)
 
 Part 2: [View my OOPAct Part 2: Class Attributes and Methods](../MyOOPSeedSystem_Part2)
 
 ---
-## Existing Class
+## Existing Class:
 | Class | Description |
 |---|---|
 | Instrument | This class represents an object that can be used for music. |
 
 ---
-## New Related Class
+## New Related Class:
 | Class | Description |
 |---|---|
 |  |  |
 
 ---
-## Association
+## Association:
 | Relationship | Explanation |
 |---|---|
 |  |  |
 
 ---
-## Multiplicity
+## Multiplicity:
 | Multiplicity | Explanation |
 |---|---|
 |  |  |
 
 
 ---
-## Hyperlinks
+## Hyperlinks:
 UML Class Relationship Diagram: [Class Relationship Diagram](images/classRelationshipDiagram.png)
 
 Python Implementation: [View Python Source](classRelationships.py)
@@ -41,7 +41,7 @@ Test Run: [Relationship Test Run](images/relationshipTestRun.png)
 Object Relationship Diagram: [Object Relationship Diagram](images/objectRelationshipDiagram.png)
 
 ---
-## Analysis
+## Analysis:
  What is the association between your two classes?
  
  What multiplicity did you choose and why?
