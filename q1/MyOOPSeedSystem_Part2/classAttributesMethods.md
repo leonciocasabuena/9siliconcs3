@@ -12,9 +12,9 @@ No major changes were needed from my original design.
 ## - Visibility Decisions
 | Attribute | Data Type | Visibility | Reason |
 |---|---|---|---|
-|Color| String | Private | I kept this attribute private because it changes a physical state (color) and makes it susceptible to invalid syntaxes from sub-classes (e.g color: trasparent, color: none, etc.)——which may destroy my object. |
+|Color| String | Public | I kept this attribute public. |
 | Type | String | Private | I also kept this attribute private because it is the primary foundation of the other attributes and methods, for it serves as the basis for the latter: whether it be a piano, guitar, etc.  |
-| IsTuned | Boolean | Private | I kept this attribute hidden too because this attribute can also destroy or render the object useless if modified recklessly. |
+| IsTuned | Boolean | Public | I kept this attribute public too because . |
 | IsPlayable | Boolean | Private  | Lastly, this attribute is the most important and must be kept private at all times. This attribute serves as the core function and essence of the any instrument and shall not be modified in any way unless the instrument is to be rendered unplayable. |
 
 ---
@@ -32,7 +32,7 @@ Object Diagram: [View my Object Diagram](images/objectDiagram.png)
 ## - Analysis
 
 ### Why did you make your chosen attribute private?
-I chose all of these attributes to be private because they all have the capacity to alter the object's overall state, and making it public makes it susceptible to invalid syntaxes from other classes which may possibly render my object defective and useless.
+I chose some of the attributes to be private because some have the capacity to alter the object's overall state, and making it public makes it susceptible to invalid syntaxes from other classes which may possibly render my object defective and useless.
 
 ### Which method changes the state of your object?
 The method in which changes the state of my object is tune(), which automatically changes the attribute "IsTuned" to True.
