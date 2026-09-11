@@ -2,9 +2,9 @@ class Instrument: #Creates a class named "Instrument".
     
     #Creates a function which lists down all the attributes of the object in one function.
     def __init__(self, Color, Type, IsTuned, IsPlayable):
-        self.__color = Color
+        self.color = Color
         self.__type = Type
-        self.__IsTuned = IsTuned
+        self.IsTuned = IsTuned
         self.__IsPlayable = IsPlayable
         
     #Creates a function which materializes the method tune() and lets it get called and utilized later on (A method which changes an attribute and safely interacts with an attribute).
@@ -17,17 +17,17 @@ class Instrument: #Creates a class named "Instrument".
         self.__IsPlayable = True
         print("Status: Playing", note)
 
-    #Creates a function getColor() which calls and displays a private attribute "Color" (A method which reads or returns information about the object).
+    #Creates a function getColor() which calls and displays a public attribute "Color" (A method which reads or returns information about the object).
     def getColor(self):
-        return self.__color
+        return self.color
 
     #Creates a function getType() which calls and displays a private attribute "Type".
     def getType(self):
         return self.__type
 
-    #Creates a function getIsTuned() which calls and displays a private attribute "IsTuned".
+    #Creates a function getIsTuned() which calls and displays a public attribute "IsTuned".
     def getIsTuned(self):
-        return self.__IsTuned
+        return self.IsTuned
 
     #Creates a function getIsPlayable() which calls and displays a private attribute "IsPlayable". 
     def getIsPlayable(self):
