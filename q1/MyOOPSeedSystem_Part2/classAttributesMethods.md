@@ -1,15 +1,15 @@
 # Class Attributes and Methods
 
 ---
-## - Previous Design
+## Previous Design:
 Link to my previous activity: [View my OOP Seed System Part 1](../MyOOPSeedSytem_Part1)
 
 ---
-## - Design Revision
+##  Design Revision:
 No major changes were needed from my original design.
 
 ---
-## - Visibility Decisions
+## Visibility Decisions:
 | Attribute | Data Type | Visibility | Reason |
 |---|---|---|---|
 |Color| String | Public | I kept this attribute public so other sub-classes can freely modify what the color of the instrument would be. |
@@ -18,7 +18,7 @@ No major changes were needed from my original design.
 | IsPlayable | Boolean | Private  | Lastly, this attribute is the most important and must be kept private at all times. This attribute serves as the core function and essence of the any instrument and shall not be modified in any way unless the instrument is to be rendered unplayable. |
 
 ---
-## - Hyperlinks
+## Hyperlinks:
 
 Updated UML Class Diagram: [View my Updated Class Diagram](images/classDiagramSG5.png)
 
@@ -29,7 +29,7 @@ Test Run: [View my Test Run](images/classTestRun.png)
 Object Diagram: [View my Object Diagram](images/objectDiagram.png)
 
 ---
-## - Analysis
+## Analysis:
 
 ### Why did you make your chosen attribute private?
 I chose some of the attributes to be private because some have the capacity to alter the object's overall state, and making it public makes it susceptible to invalid syntaxes from other classes which may possibly render my object defective and useless.
