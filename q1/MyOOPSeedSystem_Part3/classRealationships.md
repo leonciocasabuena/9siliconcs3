@@ -43,12 +43,20 @@ Object Relationship Diagram: [View my Object Relationship Diagram](images/object
 ## Analysis:
 ### What is the association between your two classes?
  
-The two classes (Musician and Instrument) have a "HAS-A" association with each other, which means that one class (Musician) possesses the other (Instrument). My system denotes that the Musician class relates to the Instrument class through their connection in acting as a single unit when combined.
+The two classes (Musician and Instrument) have a "HAS-A" association, meaning one class (Musician) possesses the other (Instrument). My system denotes that the Musician class relates to the Instrument class through their connection in acting as a single unit when combined.
  
- What multiplicity did you choose and why?
+### What multiplicity did you choose and why?
+
+I chose one-to-many multiplicity (specifically 1 ---> 1..*)  because it best fits my context and system. A musician may possess multiple instruments at once, and an instrument may only belong to one musician. 
+
+### How did you implement the relationship in Python?
+
+I implemented this relationship in Python by merging both classes into one file and letting them coexist and relate to each other. I pulled this off by copying the original "Instrument" class, then creating the other named "Musician" after it. After that, I instantiated 3 objects from the instrument class and 1 from the musician———then connected and related them through some methods.
  
- How did you implement the relationship in Python?
+### Why did you store an object reference instead of copying its data?
+
+I stored an object reference because I wanted the Musician object to be directly connected to the actual Instrument objects. This allows the other subclasses from the "Musician" class to further access the instrument's methods and attributes through the relationship instead of only storing copied string information such as its name or type.
  
- Why did you store an object reference instead of copying its data?
- 
- If your relationship uses many, why is a list appropriate?
+### If your relationship uses many, why is a list appropriate?
+
+A list is appropriate because the relationship is one-to-many, meaning one musician can have multiple instruments. The list also allows me to store multiple Instrument objects and add more whenever needed instead of individually declaring every single instrument with a different variable every time.
