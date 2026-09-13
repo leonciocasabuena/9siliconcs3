@@ -21,7 +21,7 @@ Part 2: [View my OOPAct Part 2: Class Attributes and Methods](../MyOOPSeedSystem
 ## Association:
 | Relationship | Explanation |
 |---|---|
-| Musician HAS-AN Instrument. | The person in the class "Musician" can posses or wield an musical object from the class "Instrument". |
+| Musician HAS-AN Instrument. | The person in the class "Musician" can possess or wield a musical object from the class "Instrument". |
 
 ---
 ## Multiplicity:
@@ -51,12 +51,12 @@ I chose one-to-many multiplicity (specifically 1 ---> 1..*)  because it best fit
 
 ### How did you implement the relationship in Python?
 
-I implemented this relationship in Python by merging both classes into one file and letting them coexist and relate to each other. I pulled this off by copying the original "Instrument" class, then creating the other named "Musician" after it. After that, I instantiated 3 objects from the instrument class and 1 from the musician———then connected and related them through some methods.
+I implemented this relationship in Python by merging both classes into one file and letting them coexist and relate to each other. I pulled this off by copying the original "Instrument" class, then creating the other named "Musician" after it. After that, I instantiated 3 objects from the Instrument class and 1 from the Musician class—then connected and related them through some methods.
  
 ### Why did you store an object reference instead of copying its data?
 
-I stored an object reference because I wanted the Musician object to be directly connected to the actual Instrument objects. This allows the other subclasses from the "Musician" class to further access the instrument's methods and attributes through the relationship instead of only storing copied string information such as its name or type.
+I stored an object reference because I wanted the Musician object to be directly connected to the actual Instrument objects. This allows the other subclasses of the "Musician" class to further access the instrument's methods and attributes through the relationship instead of only storing copied string information such as its name or type.
  
 ### If your relationship uses many, why is a list appropriate?
 
-A list is appropriate because the relationship is one-to-many, meaning one musician can have multiple instruments. The list also allows me to store multiple Instrument objects and add more whenever needed instead of individually declaring every single instrument with a different variable every time.
+A list is appropriate because the relationship is one-to-many, meaning one musician can have multiple instruments. The list also allows me to store multiple Instrument objects and add more whenever needed, instead of individually declaring every single instrument with a different variable every time.
