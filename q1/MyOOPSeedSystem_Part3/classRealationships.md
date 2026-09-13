@@ -27,7 +27,7 @@ Part 2: [View my OOPAct Part 2: Class Attributes and Methods](../MyOOPSeedSystem
 ## Multiplicity:
 | Multiplicity | Explanation |
 |---|---|
-| One-To-Many | A musician can posses and wield several instruments, and an instrument can belong to one person only. |
+| One-To-Many | A musician can possess and wield several instruments, and an instrument can belong to one person only. |
 
 ---
 ## Hyperlinks:
@@ -41,7 +41,9 @@ Object Relationship Diagram: [View my Object Relationship Diagram](images/object
 
 ---
 ## Analysis:
- What is the association between your two classes?
+### What is the association between your two classes?
+ 
+The two classes (Musician and Instrument) have a "HAS-A" association with each other, which means that one class (Musician) possesses the other (Instrument). My system denotes that the Musician class relates to the Instrument class through their connection in acting as a single unit when combined.
  
  What multiplicity did you choose and why?
  
