@@ -55,8 +55,8 @@ I implemented this relationship in Python by merging both classes into one file 
  
 ### Why did you store an object reference instead of copying its data?
 
-I stored an object reference because I wanted the Musician object to be directly connected to the actual Instrument objects. This allows the other subclasses of the "Musician" class to further access the instrument's methods and attributes through the relationship instead of only storing copied string information such as its name or type.
+I kept the reference of the object because I wanted the Musician object to directly connect and relate to the actual objects from the Inatrument class. This allows the other subclasses of the "Musician" class to further access the instrument's methods and attributes through the relationship, instead of only storing copied string information such as its name or type.
  
 ### If your relationship uses many, why is a list appropriate?
 
-A list is appropriate because the relationship is one-to-many, meaning one musician can have multiple instruments. The list also allows me to store multiple Instrument objects and add more whenever needed, instead of individually declaring every single instrument with a different variable every time.
+A list is most viable because the multiplicity of the relationship is one-to-many, meaning one musician can have multiple instruments and one instrument can nly belong to one musician. The list also allows me to store multiple Instrument objects that's assigned to the musician and add more whenever needed, instead of individually declaring every single instrument with a different variable every time.
