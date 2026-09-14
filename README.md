@@ -25,12 +25,15 @@
 ### - OOP Seed System Part 3
  [View my OOP Seed System Part 3 Exercise](q1/MyOOPSeedSystem_Part3)
 
+---
 # Quarter 2
 ## Activities:
 
+---
 # Quarter 3
 ## Activities:
 
+---
 # Quarter 4
 ## Activities:
 
