@@ -3,7 +3,7 @@ class Instrument:
     self.color = Color
     self.__type = Type
     self.IsTuned = IsTuned
-    self.__IsPlayable = IsTuned
+    self.__IsPlayable = IsPlayable
 
 
 class Guitar(Instrument):
