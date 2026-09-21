@@ -11,14 +11,15 @@ Part 3: [View my OOPAct Part 3: Class Relationships](../MyOOPSeedSystem_Part3)
 
 ---
 ## Inheritance Relationship:
-Parent:
-Child:
-Explanation:
+|Parent|Child|Explanation|
+|---|---|---|
+||||
 
 ---
 ## Composition/Aggregation:
-Relationship:
-Explanation:
+|Relationship|Explanation|
+|---|---|
+|||
 
 ---
 ## Hyperlinks:
