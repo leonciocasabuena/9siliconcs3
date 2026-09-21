@@ -13,7 +13,7 @@ Part 3: [View my OOPAct Part 3: Class Relationships](../MyOOPSeedSystem_Part3)
 ## Inheritance Relationship:
 |Parent|Child|Explanation|
 |---|---|---|
-||||
+|Instrument|Guitar| Guitar becomes the child class, and Instrument becomes the parent class because a guitar has an "IS-A" inheritance with an instrument; therefore, the guitar inherits some of the attributes and methods of the parent class it came from (Guitar IS-A Instrument)|
 
 ---
 ## Composition/Aggregation:
