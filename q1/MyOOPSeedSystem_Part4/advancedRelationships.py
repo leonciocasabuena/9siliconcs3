@@ -7,8 +7,8 @@ class Instrument:
 
 
 class Guitar(Instrument):
-  def __init__(self, Color, Type, IsTuned, IsPlayable):
-    super().__init__(MarketPrice, ProductionYear)
-      self.__marketprice = MarketPrice
-      self.__productionyear = ProductionYear
+  def __init__(self, Color, Type, IsTuned, IsPlayable, MarketPrice, ProductionYear):
+    super().__init__(Color, Type, IsTuned, IsPlayable,)
+    self.__marketprice = MarketPrice
+    self.__productionyear = ProductionYear
     
