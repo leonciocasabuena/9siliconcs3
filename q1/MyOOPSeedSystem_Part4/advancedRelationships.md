@@ -2,8 +2,9 @@
 
 ---
 ## Previous Activities
-Part 2: [classAttrib](classAttributesMethods.md)
-Part 3: [classRel](classRelationships.md)
+Part 2: [View my OOPAct Part 2: Class Attributes and Methods](../MyOOPSeedSystem_Part2)
+
+Part 3: [View my OOPAct Part 3: Class Relationships](../MyOOPSeedSystem_Part3)
 
 ---
 ## Existing System Description:
