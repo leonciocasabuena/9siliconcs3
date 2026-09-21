@@ -23,15 +23,15 @@ Part 3: [View my OOPAct Part 3: Class Relationships](../MyOOPSeedSystem_Part3)
 
 ---
 ## Hyperlinks:
-Inheritance UML: [Inheritance](images/inheritanceDiagram.png)
+Inheritance UML: [View my Inheritance UML Diagram](images/inheritanceDiagram.png)
 
-Advanced UML Diagram: [Advanced UML](images/advancedClassDiagram.png)
+Advanced UML Diagram: [View my Advanced UML Diagram](images/advancedClassDiagram.png)
 
-Python Implementation: [Source Code](advancedRelationships.py)
+Python Implementation: [View my Source Code](advancedRelationships.py)
 
-Test Run: [Test](images/advancedTestRun.png)
+Test Run: [View my Test Run](images/advancedTestRun.png)
 
-Object Diagram: [Objects](images/advancedObjectDiagram.png)
+Object Diagram: [View my Object Diagram](images/advancedObjectDiagram.png)
 
 ---
 ## Reflection
