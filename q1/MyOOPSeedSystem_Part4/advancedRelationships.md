@@ -8,6 +8,21 @@ Part 3: [View my OOPAct Part 3: Class Relationships](../MyOOPSeedSystem_Part3)
 
 ---
 ## Existing System Description:
+### What classes currently exist in your system?
+Class 1: Instrument
+
+Class 2: Musician
+### What problem or limitation exists in your current design?
+
+● repeated attributes;
+
+● repeated methods;
+
+● classes that are too large;
+
+● unclear ownership;
+
+● temporary actions incorrectly modeled.
 
 ---
 ## Inheritance Relationship:
@@ -35,7 +50,6 @@ Object Diagram: [View my Object Diagram](images/advancedObjectDiagram.png)
 
 ---
 ## Reflection
-
 ### Why did you choose your inheritance relationship? Explain why your child class is a type of your parent class.
 
 ### How did inheritance reduce duplicate code? Identify attributes or methods that were reused.
