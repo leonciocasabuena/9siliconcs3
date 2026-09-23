@@ -35,4 +35,16 @@ Object Diagram: [View my Object Diagram](images/advancedObjectDiagram.png)
 
 ---
 ## Reflection
-Answers:
+
+### Why did you choose your inheritance relationship? Explain why your child class is a type of your
+parent class.
+
+### How did inheritance reduce duplicate code? Identify attributes or methods that were reused.
+
+### Why is your HAS-A relationship Composition or Aggregation? Explain the lifecycle relationship
+between the two objects.
+
+### What is the difference between Association from Part III and the advanced relationship you
+implemented?
+
+### How does your design follow the DRY principle?
