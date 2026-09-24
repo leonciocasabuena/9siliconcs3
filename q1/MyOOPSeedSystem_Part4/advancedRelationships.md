@@ -9,20 +9,17 @@ Part 3: [View my OOPAct Part 3: Class Relationships](../MyOOPSeedSystem_Part3)
 ---
 ## Existing System Description:
 ### What classes currently exist in your system?
-Class 1: Instrument
+● Class 1: Instrument
 
-Class 2: Musician
+● Class 2: Musician
+
 ### What problem or limitation exists in your current design?
 
-● repeated attributes;
+● Repeated attributes
 
-● repeated methods;
+● Repeated methods
 
-● classes that are too large;
-
-● unclear ownership;
-
-● temporary actions incorrectly modeled.
+● 
 
 ---
 ## Inheritance Relationship:
@@ -34,7 +31,7 @@ Class 2: Musician
 ## Composition/Aggregation:
 |Relationship|Explanation|
 |---|---|
-|||
+|Composition|I chose composition because I had previously created a child class named "Guitar", and I figured that it would make a good composition relationship with an object "String"——which is in fact a literal part of a guitar. |
 
 ---
 ## Hyperlinks:
@@ -51,11 +48,15 @@ Object Diagram: [View my Object Diagram](images/advancedObjectDiagram.png)
 ---
 ## Reflection
 ### Why did you choose your inheritance relationship? Explain why your child class is a type of your parent class.
+I chose the inheritance relationship because 
 
 ### How did inheritance reduce duplicate code? Identify attributes or methods that were reused.
 
+
 ### Why is your HAS-A relationship Composition or Aggregation? Explain the lifecycle relationship between the two objects.
 
+
 ### What is the difference between Association from Part III and the advanced relationship you implemented?
+
 
 ### How does your design follow the DRY principle?
