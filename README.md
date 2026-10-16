@@ -1,19 +1,37 @@
 # Computer Science 3 Portfolio
 ## Student Information
-### Name: Leoncio B. Casabuena
-### Section: Silicon
-### School Year: 2026-2027
-### I love sports and music.
+
+ Name: Leoncio B. Casabuena
+ 
+ Section: Silicon
+ 
+ School Year: 2026-2027
+ 
+ I love sports and music.
+ 
 ---
-# Quarter 1
-## Activities
+# Quarter 1: Activities
 ### - Computational Thinking Skills
-#### [View my Computational Thinking Exercise](q1/ctskillsSiliconCasabuena.md)
+ [View my Computational Thinking Exercise](q1/ctskillsSiliconCasabuena.md)
 ### - Chinese Zodiac
-#### [View my Chinese Zodiac Exercise](q1/zodiacSiliconCasabuena.md)
+ [View my Chinese Zodiac Exercise](q1/zodiacSiliconCasabuena.md)
 ### - OOP Concept
-#### [View my OOP Concept Exercise](q1/ila_oop.md)
-### - OOP Seed System
-#### [View my OOP Seed System Exercise](q1/classObjectUML.md)
-### - OOP Seed System Part II
-#### [View my OOP Seed System Part II Exercise](q1/classAttributesMethods.md)
+ [View my OOP Concept Exercise](q1/ila_oop.md)
+### - OOP Seed System 1
+ [View my OOP Seed System Part 1 Exercise](q1/MyOOPSeedSytem_Part1)
+### - OOP Seed System Part 2
+ [View my OOP Seed System Part 2 Exercise](q1/MyOOPSeedSystem_Part2)
+### - OOP Seed System Part 3
+ [View my OOP Seed System Part 3 Exercise](q1/MyOOPSeedSystem_Part3)
+### - OOP Seed System Part 4
+ [View my OOP Seed System Part 4 Exercise](q1/MyOOPSeedSystem_Part4)
+
+---
+# Quarter 2: Activities
+
+---
+# Quarter 3: Activities
+
+---
+# Quarter 4: Activities
+
