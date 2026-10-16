@@ -29,7 +29,7 @@
 ---
 # Quarter 2: Activities
 ### - Encapsulation Exercise
-[View my Encapsulation Exercise](sg8_encapsulation.py)
+[View my Encapsulation Exercise](q2/sg8_encapsulation.py)
 
 ---
 # Quarter 3: Activities
