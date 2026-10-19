@@ -1,4 +1,4 @@
-class Publication: #Creates a class names Publication, which is the parent class of both the Book and Magazine class -- and will also be the source for the inherited attributes of the latter.
+class Publication: #Creates a class names Publication, which is the parent class of both the Book and Magazine class -- and will also be the source for the inherited attributes of the latter (L).
     def __init__(self, title, author):
         self.__title = title
         self.__author = author
@@ -15,12 +15,12 @@ class Publication: #Creates a class names Publication, which is the parent class
     def set_author(self, author):
         self.__author = author
 
-    def display_info(self):
+    def display_info(self): #creates a function which effectively prints out all of the relevant information about the publication: title and author/s.
         print("---Publication Information---")
         print(f"Title: {publication_1.get_title()}")
         print(f"Author: {publication_1.get_author()}")
         
-class Book(Publication): #Creates a child class Book which inherits the title and author attributes of the parent class Publication using the super() function, while also having the ability to add additional indeppendent attributes. 
+class Book(Publication): #Creates a child class Book which inherits the title and author attributes of the parent class Publication using the super() function, while also having the ability to add additional indeppendent attributes (B). 
     def __init__(self, title, author, number_pages):
         super().__init__(title, author)
         self.__number_pages = int(number_pages)
@@ -35,12 +35,12 @@ class Book(Publication): #Creates a child class Book which inherits the title an
         else:
             self.__number_pages = int(number_pages)
           
-    def display_info(self):
+    def display_info(self): #also creates a function which effectively prints out all of the relevant information about the book: title and author/s.
         print("---Book Information---")
         print(f"Title: {book_1.get_title()}")
         print(f"Author: {book_1.get_author()}")
     
-class Magazine(Publication): #Creates a child class Magazine which also inherits the title and author attributes of the parent class Publication using the super() function, while also having the ability to add additional indeppendent attributes.
+class Magazine(Publication): #Creates a child class Magazine which also inherits the title and author attributes of the parent class Publication using the super() function, while also having the ability to add additional indeppendent attributes (C).
     def __init__(self, title, author, issue_number):
         super().__init__(title, author)
         self.__number_pages = int(issue_number)
@@ -55,7 +55,7 @@ class Magazine(Publication): #Creates a child class Magazine which also inherits
         else:
             self.__number_pages = int(issue_number)
 
-    def display_info(self):
+    def display_info(self): #creates a function which effectively prints out all of the relevant information about the magazine: title and author/s.
         print("---Magazine Information---")
         print(f"Title: {magazine_1.get_title()}")
         print(f"Author: {magazine_1.get_author()}")
