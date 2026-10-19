@@ -69,13 +69,13 @@ publication_1.display_info() #calls the display_info() function from the class P
 
 print("")
 
-book_1.set_number_pages(-14) #sets the number of pages to a value of -14, but then -- the function contains a restriction which prevents it from updating the new number of pages into a numerical digit less than or equal to zero -- therefore the program ignores the call and proceeds to the next line of code.
+book_1.set_number_pages(-14) #sets the number of pages to a value of -14, but then -- the function contains a restriction which prevents it from updating the new number of pages into a numerical digit less than or equal to zero -- therefore the program ignores the call and proceeds to the next line of code N.
 book_1.display_info() #also calls the display_info() function from the child class Book, which was also configured earlier -- displaying both the title and the author of the book.
 
-print(f"Number of Pages: {book_1.get_number_pages()}") #calls the get_number_pages() function from the child class Book, and prints the given number of pages from the instantiated object.
+print(f"Number of Pages: {book_1.get_number_pages()}") #calls the get_number_pages() function from the child class Book, and prints the given number of pages from the instantiated object C.
 
 print("")
 
-magazine_1.set_issue_number(-112) #sets the issue number to a value of -122, but then -- the function also contains a restriction which prevents it from updating the new issue number into a numerical digit less than or equal to zero -- therefore the program ignores the call and proceeds to the next line of code.
-magazine_1.display_info() #also calls the display_info() function from the child class Magazine, which was also configured earlier -- displaying both the title and the author of the magazine.
+magazine_1.set_issue_number(-112) #sets the issue number to a value of -122, but then -- the function also contains a restriction which prevents it from updating the new issue number into a numerical digit less than or equal to zero -- therefore the program ignores the call and proceeds to the next line of code I.
+magazine_1.display_info() #also calls the display_info() function from the child class Magazine, which was also configured earlier -- displaying both the title and the author of the magazine O.
 print(f"Issue Number: {magazine_1.get_issue_number()}") #calls the get_issue_number() function from the child class Magazine, and prints the given issue number of the instantiated object.
