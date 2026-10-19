@@ -65,9 +65,15 @@ book_1 = Book("I Have No Mouth & I Must Scream", "Harlan Ellison", 14)
 magazine_1 = Magazine("IF: Worlds of Science Fiction", "Various Authors", 112)
 
 publication_1.display_info()
+
 print("")
+
+book_1.set_number_pages(-14)
 book_1.display_info()
+
 print(f"Number of Pages: {book_1.get_number_pages()}")
+
 print("")
+magazine_1.set_issue_number(-112)
 magazine_1.display_info()
 print(f"Issue Number: {magazine_1.get_issue_number()}")
