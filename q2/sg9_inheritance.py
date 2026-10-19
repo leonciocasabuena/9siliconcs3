@@ -78,4 +78,4 @@ print("")
 
 magazine_1.set_issue_number(-112) #sets the issue number to a value of -122, but then -- the function also contains a restriction which prevents it from updating the new issue number into a numerical digit less than or equal to zero -- therefore the program ignores the call and proceeds to the next line of code.
 magazine_1.display_info() #also calls the display_info() function from the child class Magazine, which was also configured earlier -- displaying both the title and the author of the magazine.
-print(f"Issue Number: {magazine_1.get_issue_number()}") #calls the get_issue_number() function from the child class Magazine, and prints the given issue number from the instantiated object.
+print(f"Issue Number: {magazine_1.get_issue_number()}") #calls the get_issue_number() function from the child class Magazine, and prints the given issue number of the instantiated object.
