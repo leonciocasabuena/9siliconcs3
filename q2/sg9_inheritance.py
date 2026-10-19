@@ -1,4 +1,4 @@
-class Publication: #Creates a class names Publication, which is the parent class of both the Book and Magazine class -- and will also be the source for the inherited attributes of the latter (L).
+class Publication: #Creates a class names Publication, which is the parent class of both the Book and Magazine class -- and will also be the source for the inherited attributes of the latter L.
     def __init__(self, title, author):
         self.__title = title
         self.__author = author
@@ -20,7 +20,7 @@ class Publication: #Creates a class names Publication, which is the parent class
         print(f"Title: {publication_1.get_title()}")
         print(f"Author: {publication_1.get_author()}")
         
-class Book(Publication): #Creates a child class Book which inherits the title and author attributes of the parent class Publication using the super() function, while also having the ability to add additional indeppendent attributes (B). 
+class Book(Publication): #Creates a child class Book which inherits the title and author attributes of the parent class Publication using the super() function, while also having the ability to add additional indeppendent attributes E. 
     def __init__(self, title, author, number_pages):
         super().__init__(title, author)
         self.__number_pages = int(number_pages)
@@ -40,7 +40,7 @@ class Book(Publication): #Creates a child class Book which inherits the title an
         print(f"Title: {book_1.get_title()}")
         print(f"Author: {book_1.get_author()}")
     
-class Magazine(Publication): #Creates a child class Magazine which also inherits the title and author attributes of the parent class Publication using the super() function, while also having the ability to add additional indeppendent attributes (C).
+class Magazine(Publication): #Creates a child class Magazine which also inherits the title and author attributes of the parent class Publication using the super() function, while also having the ability to add additional indeppendent attributes O.
     def __init__(self, title, author, issue_number):
         super().__init__(title, author)
         self.__number_pages = int(issue_number)
