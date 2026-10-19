@@ -29,8 +29,8 @@ class Book(Publication): #Creates a child class Book which inherits the title an
     def get_number_pages(self):
         return self.__number_pages
 
-    def set_number_pages(self, number_pages):
-        if number_pages<0:
+    def set_number_pages(self, number_pages): #creates function which updates the number of pages of an existing object instantiated from the Book class, and also sets a restriction which prevents the new updated number of ppages to be a numerical value less than or equal to zero.
+        if number_pages<=0:
             print("The number of pages shall be a positive number.")
         else:
             self.__number_pages = int(number_pages)
@@ -49,8 +49,8 @@ class Magazine(Publication): #Creates a child class Magazine which also inherits
     def get_issue_number(self):
         return self.__number_pages
 
-    def set_issue_number(self, issue_number):
-        if issue_number<0:
+    def set_issue_number(self, issue_number): #creates function which updates the issue number of an existing object instantiated from the Magazine class, and also sets a restriction which prevents the new updated issue number to be a numerical value less than or equal to zero.
+        if issue_number<=0:
             print("Issue number shall be a positive number.")
         else:
             self.__number_pages = int(issue_number)
