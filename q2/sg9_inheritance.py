@@ -22,7 +22,7 @@ class Publication: #Creates a class names Publication, which is the parent class
         
 class Book(Publication): #Creates a child class Book which inherits the title and author attributes of the parent class Publication using the super() function, while also having the ability to add additional indeppendent attributes. E
     def __init__(self, title, author, number_pages):
-        super().__init__(title, author)
+        super().__init__(title, author) #calls a sub-function super() which calls all the previously mentioned attributes of the parent class Publication, and re-iterates it into the child class.
         self.__number_pages = int(number_pages)
         self.set_number_pages(number_pages)
     
@@ -42,7 +42,7 @@ class Book(Publication): #Creates a child class Book which inherits the title an
     
 class Magazine(Publication): #Creates a child class Magazine which also inherits the title and author attributes of the parent class Publication using the super() function, while also having the ability to add additional indeppendent attributes. O
     def __init__(self, title, author, issue_number):
-        super().__init__(title, author)
+        super().__init__(title, author) #calls a sub-function super() which calls all the previously mentioned attributes of the parent class Publication, and re-iterates it into the child class.
         self.__number_pages = int(issue_number)
         self.set_issue_number(issue_number)
 
