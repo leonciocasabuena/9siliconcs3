@@ -16,9 +16,17 @@ class Lion(Animal):
         
 
 class Elephant(Animal):
+    def eat(self):
+        print(f"")
+
+    def make_sound(self):
 
 class Monkey(Animal):
+    def eat(self):
+        print(f"")
 
+    def make_sound(self):
+        
 lion = Lion("Scar")
 elephant = Elephant("Meena")
 Monkey = Monkey("Wukong")
