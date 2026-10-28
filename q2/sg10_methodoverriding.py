@@ -1,4 +1,4 @@
-class Animal: #Creates a parent class named Animal.
+class Animal: #Creates a parent class named Animal. L
   def __init__(self, name): #Creates a function which serve as the default constructor of th class containing all of its attributes for the objects that'l be instantiated later.
       self.__name = name
     
@@ -8,7 +8,7 @@ class Animal: #Creates a parent class named Animal.
   def make_sound(self):
       pass
 
-class Lion(Animal): #Creates a child class Lion and declaring the Animal class as the superclass.
+class Lion(Animal): #Creates a child class Lion and declaring the Animal class as the superclass. E
   def __init__(self, name): #Creates a function which serve as the default constructor of th class containing all of its attributes for the objects that'l be instantiated later.
       super().__init__(name) #A built in function which calls the __init__ method of the parent class Animal, which allows the child class to reuse the method of the parent class alongside its attributes without completely overriding it.
       self.__name = name
@@ -20,7 +20,7 @@ class Lion(Animal): #Creates a child class Lion and declaring the Animal class a
   def make_sound(self):
       print(f"{self.__name} roars loudly!")
 
-class Elephant(Animal): #Creates a child class of the parent class Animal named Elephant.
+class Elephant(Animal): #Creates a child class of the parent class Animal named Elephant. O
   def __init__(self, name): #Creates a function which serve as the default constructor of th class containing all of its attributes for the objects that'l be instantiated later.
       super().__init__(name) #A built in function which calls the __init__ method of the parent class Animal, which allows the child class to reuse the method of the parent class alongside its attributes without completely overriding it.
       self.__name = name
@@ -32,7 +32,7 @@ class Elephant(Animal): #Creates a child class of the parent class Animal named 
   def make_sound(self):
       print(f"{self.__name} trumpets!")
 
-class Monkey(Animal): #Creates a child class of the parent class Animal named Monkey 
+class Monkey(Animal): #Creates a child class of the parent class Animal named Monkey. N
   def __init__(self, name): #Creates a function which serve as the default constructor of th class containing all of its attributes for the objects that'l be instantiated later.
       super().__init__(name) #A built in function which calls the __init__ method of the parent class Animal, which allows the child class to reuse the method of the parent class alongside its attributes without completely overriding it.
       self.__name = name
@@ -44,14 +44,14 @@ class Monkey(Animal): #Creates a child class of the parent class Animal named Mo
   def make_sound(self):
       print(f"{self.__name} chatters!")
 
-#Instantiates three objects from the individual classes created above: Lion, Elephant, and Monkey.
+#Instantiates three objects from the individual classes created above: Lion, Elephant, and Monkey. C
 lion = Lion("Scar")
 elephant = Elephant("Meena")
 monkey = Monkey("Wukong")
 
-animals = [lion, elephant, monkey] #Compiles all three instantiated objects into one list named animals, which makes it easier to call and reiterate later.
+animals = [lion, elephant, monkey] #Compiles all three instantiated objects into one list named animals, which makes it easier to call and reiterate later. I
 
-#Creates a for loop which temporarily declares a variable "animal" as the objects of the list named "animal" in chronologica order, then the loop performs the assigned methods with respect to the object currently declared for every loop until all objects from the list are through.
+#Creates a for loop which temporarily declares a variable "animal" as the objects of the list named "animal" in chronologica order, then the loop performs the assigned methods with respect to the object currently declared for every loop until all objects from the list are through. O
 for animal in animals:
   animal.make_sound()
   animal.eat()
