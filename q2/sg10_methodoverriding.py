@@ -9,8 +9,8 @@ class Animal: #Creates a parent class named Animal.
       pass
 
 class Lion(Animal): #Creates a child class Lion and declaring the Animal class as the superclass.
-  def __init__(self, name):
-      super().__init__(name)
+  def __init__(self, name): #Creates a function which serve as the default constructor of th class containing all of its attributes for the objects that'l be instantiated later.
+      super().__init__(name) #A built in function which calls the __init__ method of the parent class Animal, which allows the child class to reuse the methods along its attributes without completely overriding it.
       self.__name = name
     
   def eat(self):
