@@ -1,5 +1,5 @@
 class Animal: #Creates a parent class named Animal.
-  def __init__(self, name):
+  def __init__(self, name): #Creates a function which serve as the default constructor of th class containing all of its attributes for the objects that'l be instantiated later.
       self.__name = name
     
   def eat(self):
@@ -10,9 +10,10 @@ class Animal: #Creates a parent class named Animal.
 
 class Lion(Animal): #Creates a child class Lion and declaring the Animal class as the superclass.
   def __init__(self, name): #Creates a function which serve as the default constructor of th class containing all of its attributes for the objects that'l be instantiated later.
-      super().__init__(name) #A built in function which calls the __init__ method of the parent class Animal, which allows the child class to reuse the methods along its attributes without completely overriding it.
+      super().__init__(name) #A built in function which calls the __init__ method of the parent class Animal, which allows the child class to reuse the method of the parent class alongside its attributes without completely overriding it.
       self.__name = name
-    
+
+#Creates two methods named eat() and make_sound() with names identical to those of the parent class. However, since the class Lion is a child class of the parent class Animal -- the program lets the child class overrride the said methods and let it display a new output with respect to the information given about the said animal.
   def eat(self):
       print(f"{self.__name} eats fresh meat.")
 
@@ -20,10 +21,11 @@ class Lion(Animal): #Creates a child class Lion and declaring the Animal class a
       print(f"{self.__name} roars loudly!")
 
 class Elephant(Animal): #Creates a child class of the parent class Animal named Elephant.
-  def __init__(self, name):
-      super().__init__(name)
+  def __init__(self, name): #Creates a function which serve as the default constructor of th class containing all of its attributes for the objects that'l be instantiated later.
+      super().__init__(name) #A built in function which calls the __init__ method of the parent class Animal, which allows the child class to reuse the method of the parent class alongside its attributes without completely overriding it.
       self.__name = name
-    
+
+#Creates two methods named eat() and make_sound() with names identical to those of the parent class. However, since the class Elephant is a child class of the parent class Animal -- the program lets the child class overrride the said methods and let it display a new output with respect to the information given about the said animal. 
   def eat(self):
       print(f"{self.__name} eats grass and fruits.")
 
@@ -31,10 +33,11 @@ class Elephant(Animal): #Creates a child class of the parent class Animal named 
       print(f"{self.__name} trumpets!")
 
 class Monkey(Animal): #Creates a child class of the parent class Animal named Monkey 
-  def __init__(self, name):
-      super().__init__(name)
+  def __init__(self, name): #Creates a function which serve as the default constructor of th class containing all of its attributes for the objects that'l be instantiated later.
+      super().__init__(name) #A built in function which calls the __init__ method of the parent class Animal, which allows the child class to reuse the method of the parent class alongside its attributes without completely overriding it.
       self.__name = name
-    
+
+#Creates two methods named eat() and make_sound() with names identical to those of the parent class. However, since the class Monkey is a child class of the parent class Animal -- the program lets the child class overrride the said methods and let it display a new output with respect to the information given about the said animal.   
   def eat(self):
       print(f"{self.__name} eats bananas.")
 
