@@ -16,7 +16,7 @@ class Patient:
         self.__bill_amount = bill_amount
 
     def calculate_bill(self):
-        pass      
+        return self.__bill_amount             
 
     def display_patient_type(self):
         return "Regular Patient"
@@ -24,7 +24,7 @@ class Patient:
 class Senior_Patient(Patient):
 
     def calculate_bill(self):   
-        pass
+        self.get_bill_amount(self)
 
     def display_patient_type(self):
         return "Senior Citizen"
@@ -46,15 +46,15 @@ print("————————————————————————�
 
 print(f"Patient Name: {patient.get_name()}")
 print(f"Patient Type: {patient.display_patient_type()}")
-print(f"Original Bill: {patient.get_bill_amount():.2f}")
-print(f"Final Bill: ")
+print(f"Original Bill: ₱{patient.get_bill_amount():.2f}")
+print(f"Final Bill: ₱{patient.calculate_bill():.2f}")
 
 print(f"\nPatient Name: {senior_patient.get_name()}")
 print(f"Patient Type: {senior_patient.display_patient_type()}")
-print(f"Original Bill: {senior_patient.get_bill_amount():.2f}")
+print(f"Original Bill: ₱{senior_patient.get_bill_amount():.2f}")
 print(f"Final Bill: ")
 
 print(f"\nPatient Name: {philhealth_patient.get_name()}")
 print(f"Patient Type: {philhealth_patient.display_patient_type()}")
-print(f"Original Bill: {philhealth_patient.get_bill_amount():.2f}")
+print(f"Original Bill: ₱{philhealth_patient.get_bill_amount():.2f}")
 print(f"Final Bill: ")
