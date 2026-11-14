@@ -35,9 +35,9 @@
 ### - Method Overriding Exercise
 [View my Method Overriding Inheritance Exercise](q2/sg10_methodoverriding.py)
 ### - Polymorphism: Activity 1 Exercise
-[View my Polymorphism: Activity 1 Exercise](q2/sg_11polymorphism/activity_1.py)
+[View my Polymorphism: Activity 1 Exercise](q2/sg11_polymorphism/activity_1.py)
 ### - Polymorphism: Activity 2 Exercise
-[View my Polymorphism: Activity 1 Exercise](q2/sg_11polymorphism/activity_2.py)
+[View my Polymorphism: Activity 1 Exercise](q2/sg11_polymorphism/activity_2.py)
 
 
 ---
