@@ -16,39 +16,45 @@ class Patient:
         self.__bill_amount = bill_amount
 
     def calculate_bill(self):
-        
+        pass      
 
     def display_patient_type(self):
-        print("Regular Patient")
+        return "Regular Patient"
 
 class Senior_Patient(Patient):
 
     def calculate_bill(self):   
+        pass
 
     def display_patient_type(self):
-        print("Senior Citizen")
+        return "Senior Citizen"
 
 class PhilHealth_Patient(Patient):
 
     def calculate_bill(self):   
+        pass
 
     def display_patient_type(self):
-        print("PhilHealth Member")
+        return "PhilHealth Member"
+    
+patient = Patient("Frank Ocean", 15000.00)
+senior_patient = Senior_Patient("Christopher Wallace", 15000.00)
+philhealth_patient = PhilHealth_Patient("Tupac Shakur", 15000.00)
 
-print("Hospital Billing System")
-print("———————————————————————")
+print("    Hospital Billing System")
+print("———————————————————————————————")
 
-print(f"Patient Name:")
-print(f"Patient Type:")
-print(f"Original Bill:")
-print(f"Final Bill:")
+print(f"Patient Name: {patient.get_name()}")
+print(f"Patient Type: {patient.display_patient_type()}")
+print(f"Original Bill: {patient.get_bill_amount():.2f}")
+print(f"Final Bill: ")
 
-print(f"\nPatient Name:")
-print(f"Patient Type:")
-print(f"Original Bill:")
-print(f"Final Bill:")
+print(f"\nPatient Name: {senior_patient.get_name()}")
+print(f"Patient Type: {senior_patient.display_patient_type()}")
+print(f"Original Bill: {senior_patient.get_bill_amount():.2f}")
+print(f"Final Bill: ")
 
-print(f"\nPatient Name:")
-print(f"Patient Type:")
-print(f"Original Bill:")
-print(f"Final Bill:")
+print(f"\nPatient Name: {philhealth_patient.get_name()}")
+print(f"Patient Type: {philhealth_patient.display_patient_type()}")
+print(f"Original Bill: {philhealth_patient.get_bill_amount():.2f}")
+print(f"Final Bill: ")
