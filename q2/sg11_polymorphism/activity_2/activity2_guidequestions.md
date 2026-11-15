@@ -7,4 +7,4 @@ According to the video, duck typing is an alternative way of implementing polymo
 The car only had to have an identical method named speak() in order to work inside the same loop as the classes Dog and Cat even if it does become a child class of the superclass Animal.
 
 ## 3. How does the code in 2.2 demonstrate polymorphism?
-
+The code with regard to implementing duck typing on the methods of 
