@@ -12,7 +12,6 @@ class Drone:
 
 def start_trip(vehicle):
     vehicles = [Car(), Boat(), Drone()]
-    for vehicle in vehicles:
-        vehicle.move()
+    vehicle.move()
 
 start_trip()
