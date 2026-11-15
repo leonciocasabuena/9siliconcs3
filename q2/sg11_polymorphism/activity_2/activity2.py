@@ -1,20 +1,20 @@
-class Car:
-    def move(self):
+class Car: #Creates a class named Car.
+    def move(self): #Creates a function named move() with an action respective to the vehicle's purpose.
         print("The car drives on the road.")
 
-class Boat:
-    def move(self):
+class Boat: #Creates a class named Boat.
+    def move(self): #Creates a function named move() with an action respective to the vehicle's purpose.
         print("The boat sails on water.")
 
-class Drone:
-    def move(self):
+class Drone: #Creates a class named Drone.
+    def move(self): #Creates a function named move() with an action respective to the vehicle's purpose.
         print("The drone flies in the sky.")
 
-def start_trip(vehicle):
+def start_trip(vehicle): #Creates a function named start_trip(vehicle) with a parameter vehicle which will serve as a placeholder for whatever object shall be assigned to the action move() of this function.
     vehicle.move()
 
-vehicles = [Car(), Boat(), Drone()]
+vehicles = [Car(), Boat(), Drone()] #Creates a list containing objects that were instantiated from each of the three classes abovementioned.
 
-for vehicle in vehicles:
+for vehicle in vehicles: #Creates a for loop which enumerates the objects inside the list named "vehicles" and assigns them to the temporary placeholder variable "vehicle" and executes the action inside the loop—which
     start_trip(vehicle)
 
