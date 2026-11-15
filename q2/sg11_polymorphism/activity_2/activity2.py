@@ -11,7 +11,10 @@ class Drone:
         print("The drone flies in the sky.")
 
 def start_trip(vehicle):
-    vehicles = [Car(), Boat(), Drone()]
     vehicle.move()
 
-start_trip()
+vehicles = [Car(), Boat(), Drone()]
+
+for vehicle in vehicles:
+    start_trip(vehicle)
+
