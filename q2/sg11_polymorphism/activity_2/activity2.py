@@ -1,12 +1,12 @@
-class Car: #Creates a class named Car.
+class Car: #Creates a class named Car. L
     def move(self): #Creates a function named move() with an action respective to the vehicle's purpose.
         print("The car drives on the road.")
 
-class Boat: #Creates a class named Boat.
+class Boat: #Creates a class named Boat. E
     def move(self): #Creates a function named move() with an action respective to the vehicle's purpose.
         print("The boat sails on water.")
 
-class Drone: #Creates a class named Drone.
+class Drone: #Creates a class named Drone. O
     def move(self): #Creates a function named move() with an action respective to the vehicle's purpose.
         print("The drone flies in the sky.")
 
