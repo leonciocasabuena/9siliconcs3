@@ -52,7 +52,6 @@ print(f"Original Bill: ₱{patient.get_bill_amount():.2f}")
 print(f"Final Bill: ₱{patient.calculate_bill():.2f}")
 
 #Calls all the respective inherited methods of the child class Senior_Patient from the parent class Patient and displays the regarding information about the instantiated object "senior_patient". I
-print(f"Patient Name: {patient.get_name()}")
 print(f"\nPatient Name: {senior_patient.get_name()}")
 print(f"Patient Type: {senior_patient.display_patient_type()}")
 print(f"Original Bill: ₱{senior_patient.get_bill_amount():.2f}")
