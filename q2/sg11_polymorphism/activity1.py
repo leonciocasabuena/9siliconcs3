@@ -45,19 +45,19 @@ philhealth_patient = PhilHealth_Patient("Tupac Shakur", 15000.00)
 print("    Hospital Billing System")
 print("———————————————————————————————")
 
-#Calls all the respective methods from the parent class Patient and displays the regarding information about the instantiated object "patient". C
+#Calls all the respective methods from the parent class Patient including the overrriden methods and displays the regarding information about the instantiated object "patient". C
 print(f"Patient Name: {patient.get_name()}")
 print(f"Patient Type: {patient.display_patient_type()}")
 print(f"Original Bill: ₱{patient.get_bill_amount():.2f}")
 print(f"Final Bill: ₱{patient.calculate_bill():.2f}")
 
-#Calls all the respective inherited methods of the child class Senior_Patient from the parent class Patient and displays the regarding information about the instantiated object "senior_patient". I
+#Calls all the respective inherited methods of the child class Senior_Patient from the parent class Patient including the overrriden methods and displays the regarding information about the instantiated object "senior_patient". I
 print(f"\nPatient Name: {senior_patient.get_name()}")
 print(f"Patient Type: {senior_patient.display_patient_type()}")
 print(f"Original Bill: ₱{senior_patient.get_bill_amount():.2f}")
 print(f"Final Bill: ₱{senior_patient.calculate_bill():.2f}")
 
-#Calls all the respective inherited methods of the child class PhilHealth_Patient from the parent class Patient and displays the regarding information about the instantiated object "philhealth_patient". O
+#Calls all the respective inherited methods of the child class PhilHealth_Patient from the parent class Patient including the overrriden methods and displays the regarding information about the instantiated object "philhealth_patient". O
 print(f"\nPatient Name: {philhealth_patient.get_name()}")
 print(f"Patient Type: {philhealth_patient.display_patient_type()}")
 print(f"Original Bill: ₱{philhealth_patient.get_bill_amount():.2f}")
