@@ -43,9 +43,9 @@ senior_patient = Senior_Patient("Christopher Wallace", 15000.00)
 philhealth_patient = PhilHealth_Patient("Tupac Shakur", 15000.00)
 
 
-print("—————————————————————————————————")
-print("     Hospital Billing System")
-print("—————————————————————————————————")
+print("———————————————————————————————————")
+print("      Hospital Billing System")
+print("———————————————————————————————————")
 
 #Calls all the respective methods from the parent class Patient including the overrriden methods and displays the regarding information about the instantiated object "patient". C
 print(f"Patient Name: {patient.get_name()}")
