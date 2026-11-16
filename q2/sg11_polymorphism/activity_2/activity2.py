@@ -15,6 +15,6 @@ def start_trip(vehicle): #Creates a function named start_trip(vehicle) with a pa
 
 vehicles = [Car(), Boat(), Drone()] #Creates a list containing objects that were instantiated from each of the three classes abovementioned.
 
-for vehicle in vehicles: #Creates a for loop which enumerates the objects inside the list named "vehicles" and assigns them to the temporary placeholder variable "vehicle" and executes the action inside the loop——which is was the function named start_trip(vehicle) declared earlier.
+for vehicle in vehicles: #Creates a for loop which enumerates the objects inside the list named "vehicles" and assigns them to the temporary placeholder variable "vehicle" and executes the action inside the loop in each interval——which is was the function named start_trip(vehicle) declared earlier.
     start_trip(vehicle)
 
